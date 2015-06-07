@@ -290,7 +290,9 @@ int main()
 	cout << "整个视频共" << totalFrameNumber << "帧" << endl;
 
 	//设置开始帧()
-	long frameToStart = 0;
+	long frameToStart = 0; 
+
+
 	capture.set(CV_CAP_PROP_POS_FRAMES, frameToStart);
 	cout << "从第" << frameToStart << "帧开始读" << endl;
 
